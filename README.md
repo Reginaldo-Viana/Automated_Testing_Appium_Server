@@ -31,18 +31,17 @@ python -m venv .venv
   source .venv/bin/activate
   ```
 
-## 🚀 Running the Appium Server
-
-Start the Appium server using the following command:
-```sh
-appium -pa wd/hub
-```
-
 ## 📦 Installing Dependencies
 
 With the virtual environment activated, install the necessary libraries:
 ```sh
 pip install robotframework-appiumlibrary
+```
+## 🚀 Running the Appium Server
+
+Start the Appium server using the following command:
+```sh
+appium -pa wd/hub
 ```
 
 ## 🏃 Running the Tests
