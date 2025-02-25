@@ -1,0 +1,5 @@
+interest:  
+  android:
+    saveButton: //android.widget.TextView[@resource-id="Typography" and @text="Save"] 
+    interestList: //android.widget.TextView[@resource-id="Typography" and @text="{text}"]
+ 
