@@ -1,0 +1,11 @@
+search:
+  android:
+    searchInput: //android.widget.EditText[@text="Search"]
+    firstElement: //android.widget.TextView[@resource-id="Typography" and contains(@text, "Kevin Kelly")]
+    resultSearch: //android.widget.TextView[@resource-id="VideoTitle"]    
+    buttonStart: xpath=(//android.widget.Button[@resource-id="Touchable"])[1]/com.horcrux.svg.SvgView/com.horcrux.svg.GroupView/com.horcrux.svg.GroupView/com.horcrux.svg.PathView[1]
+    buttonShowPause: //android.view.ViewGroup[@content-desc="o"]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[3]
+    buttonPlayPause: //android.widget.Button[@resource-id="ControlsPlayPause"]/com.horcrux.svg.SvgView/com.horcrux.svg.GroupView/com.horcrux.svg.PathView[1]
+    timeVideo: xpath=(//android.view.ViewGroup[@content-desc="SixteenByNine"])[2]/android.view.ViewGroup[5]
+
+    
