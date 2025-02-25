@@ -1,0 +1,13 @@
+*\log
+*\__pycache__
+log.html
+report.html
+output.xml
+rerun.xml
+selenium-screenshot-*
+geckodriver-*
+poetry.lock
+.vscode
+.env
+
+.vscode/
